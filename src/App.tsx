@@ -1,7 +1,7 @@
 import React from "react";
 
 import { GiKiwiBird } from "react-icons/gi";
-import { FiHome, FiBell, FiMail } from "react-icons/fi";
+import { FiHome, FiBell, FiMail, FiMoreVertical } from "react-icons/fi";
 
 import "./styles.css";
 
@@ -13,13 +13,13 @@ function App() {
           <nav>
             <ul>
               <li>
-                <FiHome color="dodgerblue" size={18} /> Home
+                <FiHome color="#667580" size={18} /> Home
               </li>
               <li>
-                <FiBell color="dodgerblue" size={18} /> Notifications
+                <FiBell color="#667580" size={18} /> Notifications
               </li>
               <li>
-                <FiMail color="dodgerblue" size={18} /> Messages
+                <FiMail color="#667580" size={18} /> Messages
               </li>
             </ul>
           </nav>
@@ -34,6 +34,35 @@ function App() {
           </div>
         </div>
       </header>
+      <div className="banner">
+        <h1>Aula FlexBox</h1>
+      </div>
+      <div className="bar">
+        <div className="wrapper">
+          <ul>
+            <li className="active">
+              <span>Tweets</span>
+              <strong>1323</strong>
+            </li>
+            <li>
+              <span>Following</span>
+              <strong>431</strong>
+            </li>
+            <li>
+              <span>Followers</span>
+              <strong>613</strong>
+            </li>
+            <li>
+              <span>Favorites</span>
+              <strong>39</strong>
+            </li>
+          </ul>
+          <div className="actions">
+            <button>Follow</button>
+            <FiMoreVertical color="#667580" size={18} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

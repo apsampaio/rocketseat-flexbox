@@ -23,9 +23,11 @@ button {
 }
 
 header#main-header {
+  position: relative;
+  z-index: 1;
+
   height: 46px;
   background: #fff;
-
   box-shadow: rgba(0, 0, 0, 0.25) 0 1px 1px;
 }
 
@@ -97,4 +99,105 @@ header#main-header div.side button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+div.banner {
+  height: 380px;
+  width: 100%;
+
+  background: #3bb9e3;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.bar {
+  height: 59px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+div.bar .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 285px;
+  height: 100%;
+}
+
+div.bar .wrapper ul {
+  display: flex;
+  list-style: none;
+
+  height: 100%;
+}
+
+div.bar .wrapper ul li {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 15px;
+  margin: 0 15px;
+  position: relative;
+}
+
+div.bar .wrapper ul li.active::after {
+  content: "";
+
+  height: 2px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  background: #3bb9e3;
+}
+
+div.bar .wrapper ul li span {
+  color: #667580;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.bar .wrapper ul li strong {
+  color: #667580;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+div.bar .wrapper ul li.active strong {
+  color: #3bb9e3;
+}
+
+div.bar .wrapper .actions {
+  display: flex;
+  align-items: center;
+}
+
+div.bar .wrapper .actions button {
+  border: 1px solid #3bb9e3;
+  color: #3bb9e3;
+  background: #fff;
+
+  border-radius: 16px;
+
+  height: 34px;
+  width: 90px;
+
+  font-weight: bold;
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 15px;
 }
