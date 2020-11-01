@@ -12,6 +12,9 @@ import {
   FiSmile,
   FiUser,
   FiImage,
+  FiMessageCircle,
+  FiRefreshCcw,
+  FiHeart,
 } from "react-icons/fi";
 
 import "./styles.css";
@@ -129,7 +132,89 @@ function App() {
             </ul>
           </div>
         </aside>
-        <section className="timeline">timeline</section>
+        <section className="timeline">
+          <nav>
+            <a href="" className="active">
+              Tweets
+            </a>
+            <a href="">Tweets and replies</a>
+            <a href="">Medias</a>
+          </nav>
+          <ul className="tweets">
+            <li>
+              <img
+                className="avatar"
+                src="https://avatars0.githubusercontent.com/u/51516616?s=460&u=9dceff67107fcc14afd0339af87e1fadeac4dfea&v=4"
+                alt="avatar"
+              />
+              <div className="info">
+                <strong>
+                  Andre Sampaio <span>@apsampaio</span>
+                </strong>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <div className="actions">
+                  <a href="">
+                    <FiMessageCircle size={18} color="#667580" /> 3
+                  </a>
+                  <a href="">
+                    <FiRefreshCcw size={18} color="#667580" /> 7
+                  </a>
+                  <a href="">
+                    <FiHeart size={18} color="#667580" /> 15
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img
+                className="avatar"
+                src="https://avatars0.githubusercontent.com/u/51516616?s=460&u=9dceff67107fcc14afd0339af87e1fadeac4dfea&v=4"
+                alt="avatar"
+              />
+              <div className="info">
+                <strong>
+                  Andre Sampaio <span>@apsampaio</span>
+                </strong>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <div className="actions">
+                  <a href="">
+                    <FiMessageCircle size={18} color="#667580" /> 3
+                  </a>
+                  <a href="">
+                    <FiRefreshCcw size={18} color="#667580" /> 7
+                  </a>
+                  <a href="">
+                    <FiHeart size={18} color="#667580" /> 15
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img
+                className="avatar"
+                src="https://avatars0.githubusercontent.com/u/51516616?s=460&u=9dceff67107fcc14afd0339af87e1fadeac4dfea&v=4"
+                alt="avatar"
+              />
+              <div className="info">
+                <strong>
+                  Andre Sampaio <span>@apsampaio</span>
+                </strong>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <div className="actions">
+                  <a href="">
+                    <FiMessageCircle size={18} color="#667580" /> 3
+                  </a>
+                  <a href="">
+                    <FiRefreshCcw size={18} color="#667580" /> 7
+                  </a>
+                  <a href="">
+                    <FiHeart size={18} color="#667580" /> 15
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
         <aside className="widgets">
           <div className="widget follow">
             <div className="title">
