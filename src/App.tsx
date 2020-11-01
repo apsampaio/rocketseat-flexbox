@@ -140,21 +140,52 @@ function App() {
 
             <ul>
               <li>
-                <img
-                  src="https://avatars0.githubusercontent.com/u/51516616?s=460&u=9dceff67107fcc14afd0339af87e1fadeac4dfea&v=4"
-                  alt="avatar"
-                />
-                <div className="info">
-                  <strong>
-                    Spade <span>@spade_be</span>
-                  </strong>
-                  <button>Follow</button>
+                <div className="profile">
+                  <img
+                    src="https://avatars0.githubusercontent.com/u/51516616?s=460&u=9dceff67107fcc14afd0339af87e1fadeac4dfea&v=4"
+                    alt="avatar"
+                  />
+                  <div className="info">
+                    <strong>
+                      Spade <span>@spade_be</span>
+                    </strong>
+                    <button>Follow</button>
+                  </div>
+                </div>
+                <a href="">x</a>
+              </li>
+              <li>
+                <div className="profile">
+                  <img
+                    src="https://avatars0.githubusercontent.com/u/51516616?s=460&u=9dceff67107fcc14afd0339af87e1fadeac4dfea&v=4"
+                    alt="avatar"
+                  />
+                  <div className="info">
+                    <strong>
+                      Spade <span>@spade_be</span>
+                    </strong>
+                    <button>Follow</button>
+                  </div>
+                </div>
+                <a href="">x</a>
+              </li>
+              <li>
+                <div className="profile">
+                  <img
+                    src="https://avatars0.githubusercontent.com/u/51516616?s=460&u=9dceff67107fcc14afd0339af87e1fadeac4dfea&v=4"
+                    alt="avatar"
+                  />
+                  <div className="info">
+                    <strong>
+                      Spade <span>@spade_be</span>
+                    </strong>
+                    <button>Follow</button>
+                  </div>
                 </div>
                 <a href="">x</a>
               </li>
             </ul>
           </div>
-          <div className="widget trends"></div>
         </aside>
       </div>
     </div>
